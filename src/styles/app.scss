@@ -8,5 +8,15 @@ h1,h2,h3{
     color: rgb(51, 51, 51);
 }
 
+body{
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+h3, h4 {
+    font-weight: 400;
+    color: grey;
+}
+
 @import './song.scss';
 @import './player.scss';
+@import './libary'
